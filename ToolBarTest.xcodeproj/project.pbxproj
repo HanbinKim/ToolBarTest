@@ -21,6 +21,9 @@
 		00B0E9DB18767D8500C5414D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B0E9BD18767D8500C5414D /* UIKit.framework */; };
 		00B0E9E318767D8500C5414D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B0E9E118767D8500C5414D /* InfoPlist.strings */; };
 		00B0E9E518767D8500C5414D /* ToolBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B0E9E418767D8500C5414D /* ToolBarTestTests.m */; };
+		00B0E9F118767E8500C5414D /* ball1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00B0E9EE18767E8500C5414D /* ball1.jpeg */; };
+		00B0E9F218767E8500C5414D /* ball2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00B0E9EF18767E8500C5414D /* ball2.jpeg */; };
+		00B0E9F318767E8500C5414D /* ball3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00B0E9F018767E8500C5414D /* ball3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		00B0E9E018767D8500C5414D /* ToolBarTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToolBarTestTests-Info.plist"; sourceTree = "<group>"; };
 		00B0E9E218767D8500C5414D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B0E9E418767D8500C5414D /* ToolBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolBarTestTests.m; sourceTree = "<group>"; };
+		00B0E9EE18767E8500C5414D /* ball1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball1.jpeg; sourceTree = "<group>"; };
+		00B0E9EF18767E8500C5414D /* ball2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball2.jpeg; sourceTree = "<group>"; };
+		00B0E9F018767E8500C5414D /* ball3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		00B0E9BF18767D8500C5414D /* ToolBarTest */ = {
 			isa = PBXGroup;
 			children = (
+				00B0E9EE18767E8500C5414D /* ball1.jpeg */,
+				00B0E9EF18767E8500C5414D /* ball2.jpeg */,
+				00B0E9F018767E8500C5414D /* ball3.jpeg */,
 				00B0E9C818767D8500C5414D /* AppDelegate.h */,
 				00B0E9C918767D8500C5414D /* AppDelegate.m */,
 				00B0E9CB18767D8500C5414D /* Main.storyboard */,
@@ -228,9 +237,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B0E9F318767E8500C5414D /* ball3.jpeg in Resources */,
 				00B0E9D218767D8500C5414D /* Images.xcassets in Resources */,
 				00B0E9C418767D8500C5414D /* InfoPlist.strings in Resources */,
+				00B0E9F118767E8500C5414D /* ball1.jpeg in Resources */,
 				00B0E9CD18767D8500C5414D /* Main.storyboard in Resources */,
+				00B0E9F218767E8500C5414D /* ball2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
